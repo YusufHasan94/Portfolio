@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav-link{
+    color: white;
+    font-size: 22px;
+}
+.nav-link:hover{
+    color: rgb(248, 232, 191);
+}
+.left-side div h1{
+    font-size: 3rem;
+    
+}
+.left-side div h3{
+    font-size: 2rem;
+}
+.left-side div p{
+    font-size: 1rem;
+}
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro-img{
+    border-top-left-radius: 40%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.qualification-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-title{
+    font-size: 32px;
+}
+.education-title, .experience-title{
+    font-size: 28px;
+}
+.degree-title{
+    font-size: 22px!important;
+}
+.degree-institute{
+    font-size: 18px;
+}
+.skill-title{
+    font-size: 18px;
+}
+.progress-bar{
+    background-color: rgb(143, 117, 236);
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.project-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.contact{
+    background-color: #212529;
+}
+.contact-title{
+    font-size: 28px;
+}
+i{
+    font-size: 22px;
+    color: rgb(143, 117, 236);
+}
+.footer-name{
+    font-size: 26px;
+}
+.media-links{
+    display: flex;
+    column-gap: 15px;
+}
+.fa-brands:hover{
+    color: rgb(81, 41, 223);
+}
+.fa-brands{
+    font-size: 30px;
+}
+.about-text, .address-text{
+    font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+        font-size: 26px;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+    .left-side div h1{
+        font-size: 18px;
+    }
+    .left-side div h3{
+        font-size: 16;
+    }
+    .left-side div p{
+        font-size: 12px;
+    }
+    .section-title{
+        font-size: 22px;
+    }
+    .degree-title{
+        font-size: 16px!important;
+    }
+    .education-title, .experience-title{
+        font-size: 18px;
+    }
+    .degree-institute{
+        font-size: 14px;
+    }
+    .skill-title{
+        font-size: 14px;
+    }
+    .progress-bar{
+        font-size: 14px;
+    }
+    .contact-title{
+        font-size: 22px;
+    }
+    i{
+        font-size: 22px;
+    }
+    .footer-name{
+        font-size: 22px;
+    }
+    .media-links{
+        column-gap: 10px;
+    }
+    .fa-brands{
+        font-size: 22px;
+    }
+    .about-text, .address-text{
+        font-size: 14px;
+    }
+  }
